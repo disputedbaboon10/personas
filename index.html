@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content = "width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Personas</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+
+</head>
+<body>
+  <nav class = "navbar navbar-expand-sm navbar-custom">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">PERSONAS</a>
+      <div class ="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="navbar-item"><a href="#interface" class = "nav-link">Interface</a></li>
+          <li class="navbar-item"><a href="#observations" class = "nav-link">Analysis</a></li>
+          <li class="navbar-item"><a href="#empathy" class = "nav-link">Personas</a></li>
+          <li class="navbar-item"><a href="#storyboards" class = "nav-link">Storyboard</a></li>
+          <li class="navbar-item"><a href="#conclusion" class = "nav-link">Conclusion</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<h1 style="margin-bottom: 4rem;"> tete </h1>
+<h1>       </h1>
+<h1 style="text-align: center; margin-bottom: 4rem;">Water & Ice Dispenser</h1>
+<div class="normal_container">
+  <h2 style="margin-top: 4rem">What makes a successful interface?</h2>
+  <text1>Interfaces are everywhere and are used for a wide variety of tasks. A succseful interface is one that intuitivly gives users the ability to frictionlessly access functionality.
+    To better understand how to design a successful interface, I am going to be studying and observing a water and ice dispenser.
+    In watching people use this machine and asking them about their experience, I hope to answer the question: <strong>is this a good interface?</strong>
+  </text1>
+</div>
+
+<div class="d-flex flex-row justify-content-center" style="margin-bottom: 3rem">
+  <div class="normal_container" style="margin-right:3rem">
+    <h2 style="margin-top: 6rem">How to interact with this interface?</h2>
+    <text1>Because it is hard to deduce functionality from the 2D black and white sketch of the interface (depicted on right), I have listed out the functionality below.</text1>
+    <ul>
+      <li>The interactive portion of the interface is 5 capacitive touch buttons and two physical buttons that are pressed using the cup.</li>
+      <li>The "Freezer Temp" & "Refrigerator Temp" capacitive touch buttons change the freezer or refrigerator tempurature. The current tempurature corresponds to the indicator bars above the respective button.</li>
+      <li>The "Light" capacitive touch button turns on a light that illuminates the shelf for the cup.</li>
+      <li>The "Ice Type" capacitive touch button toggles the ice shape between cubed and crushed ice. The current ice type corresponds to the shape of ice in the cup above the "Ice Type" button.</li>
+      <li>The "Lock" capacitive touch button toggles the dispenser between locked and unlocked. When locked, no water or ice is dispensed.</li>
+      <li>To get water in your cup, you must place your cup in front of the water indicator button and press into the dispenser using your cup.</li>
+      <li>To get ice, you must place your cup in front of the ice cubes under the dispenser and press into the dispenser using your cup.</li>
+    </ul>    
+  </div>
+  <div class="d-flex flex-column align-items-flex-start" id="interface" style="width:150%; margin-right: 3rem; margin-top: 3rem">
+    <img class = "interface-image" src="images/Interface4.png" alt = "water dispenser interface">
+  </div>
+</div>
+
+
+<div class="d-flex flex-row justify-content-center" style="margin-bottom: 3rem"  id="observations">
+  <div class="normal_container">
+    <h2 style="margin-top: 3rem;">Q & A</h2>
+    <text><strong>Q1: Where do you put your cup to get water?</strong></text>
+    
+    <ul>
+      <li>First-time users will often place their cup under the ice machine and press the water button (which then spills onto their hand</li>
+      <li>Returning users often know to use the cup to press the water</li>
+    </ul>
+    <text><strong>Q2: Where do you put your cup to get ice?</strong></text>
+    <ul>
+      <li>Most individuals understand that pushing the cup into the ice button dispenses ice into the cup</li>
+      <li>Some individuals place the cup down, look for a button, and then realize they need to push the cup in further</li>
+    </ul>
+    <text><strong>Q3: Where do you press to change the ice type? How do you know the ice-type is now correct?</strong></text>
+    <ul>
+      <li>First-time users often don't understand that the ice shape varies nor do they understand that the current ice shape is denoted by the shapes indicated in the cup above the button</li>
+      <li>Returning users understand that if they want a specific ice shape they can look at the indicator and toggle the "Ice Type" button if necessary</li>
+    </ul>
+  </div>
+  <div class="normal_container">
+    <h2 style="margin-top: 3rem;">OBSERVATIONS</h2>
+  
+    <ul>
+      <li>The biggest problem people face when using this interface is where to place the cup when they want ice vs. when they want water. This sometimes leaves a mess of ice and water on the floor! </li>
+    </ul>
+    <ul><li>Sometimes users will place their cup in the ice location and use their hand to press the water button.</li></ul>
+    <ul><li>Nobody understands the functionality or purpose of neither the lock (because it is easily unlocked) nor the filter (because there are not any physical filter changes).</li></ul>
+    <ul><li>Because the buttons are pressure sensors and not physical buttons, the only way users know if a button press was successful is feedback from lightup icons.</li></ul>
+    <ul>      <li>Although the interface is a bit tricky to learn, once the users understand the mechanisms involved, they successfully use the water/ice dispenser in the future.</li>
+    </ul>
+  </div>
+
+</div>
+
+
+<div class="normal_container" style="margin-bottom: 10rem" id="empathy">
+
+  <h2>EMPATHY MAPS</h2>
+  <div class="container m-0 p-0">
+    <div class="row">
+      <div class="col-6">
+        <text1><font size="+2" ><strong>ULMA     </strong></font> is in a crowded room full of her friends and acquaintances chatting amongst themselves. She has just gotten a fresh plate of food and she wants an ice cold glass of water to go with it.</text1>
+      </div>
+    </div>
+  </div>
+  <div class="row" class="normal_container" style="margin-top: 3rem; margin-bottom: 3rem;">
+    <div class="column">
+      <h5>Feels</h5>
+      <ul>
+        <li>very thirsty</li>
+        <li>stressed by the crowd of people around her</li>
+        <li>overwhelmed by the food she is carrying and not wanting to drop it</li>
+        <li>rushed by the growing line behind her</li>
+      </ul>
+      <h5>Thinks</h5>
+      <ul>
+        <li>“I want to get a nice cold glass of water”</li>
+        <li>“I hope I don’t make a fool of myself”</li>
+        <li>“I need to go fast so the people behind me don’t need to wait”</li>
+      </ul>
+    </div>
+    <div class="column">
+      <h5>Says</h5>
+      <ul>
+        <li>“Sorry for the wait”</li>
+        <li>"Ahh! Why did the water just get onto my hands"</li>
+        <li>"Shucks. I just spilled water everywhere"</li>
+      </ul>
+      <h5>Does</h5>
+      <ul>
+        <li>She grabs a cup from the shelf. Puts her cup into the compartment and pushes it forward intending to get water but instead gets cubes of ice</li>
+        <li>She then presses the button that says water but water comes out right above the button and onto her hand (and then onto the floor).</li>
+        <li>She finally moves her cup from the platform and uses it to press the water button. Water starts to trickle out very slowly.</li>
+      </ul>
+    </div>
+
+  </div>
+  <div class="container m-0 p-0">
+    <div class="row">
+      <div class="col-6">
+        <text1><font size="+2"><strong>RAL    </strong></font> has just gotten some water and ice. He notices that the water is flowing very slowly and that the ice shape is not right. He wants to reset the filter on the machine as well as change the ice type.</text1>
+      </div>
+    </div>
+  </div>
+  <div class="row" class="normal_container"  style="margin-top: 3rem">
+    <div class="column">
+      <h5>Feels</h5>
+      <ul>
+        <li>Frustrated by the slow running water</li>
+        <li>Annoyed that he got too much crushed ice instead of a few ice cubes.</li>
+      </ul>
+      <h5>Thinks</h5>
+      <ul>
+        <li>“Why isn’t the water coming out faster?”</li>
+        <li>“Why didn’t I notice that it was going to dispense crushed ice instead of regular ice? Is it that hard to just get regular ice?”</li>
+      </ul>
+    </div>
+    <div class="column">
+      <h5>Says</h5>
+      <ul>
+        <li>“Does anyone know how to get regular ice on this machine?”</li>
+        <li>"Does the water come out any faster?"</li>
+        <li>"Is the tap water okay to drink?"</li>
+      </ul>
+      <h5>Does</h5>
+      <ul>
+        <li>He presses on the reset filter for 3 seconds and tries it again. That does not make the water go faster.</li>
+        <li>He gives up and moves onto pressing the ice type button. He gets ice of the correct shape and then fills the rest with water.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div id="storyboards">
+  <div class="normal_container" style="margin-bottom: 3rem;">
+    <h2>STORYBOARD</h2>
+    <text>Storyboards help us walk through a potential users experience with an interface. Storyboards can help me understand what the faults of this interface are and how a user might encounter them. I have drawn out a storyboard of Ulma using this interface.
+      Her goal is simply to get a cup of water.
+    </text>
+  </div>
+  
+  <div class="normal_container">
+  <div class="gallery-container" id= "storyboards" style="align-items: flex-start">
+    <div class="gallery-item">
+      <img class="imgtext" src="./images/one.png" alt="grabing cup from cabinet" />
+      <p style="margin-top: 1rem">Ulma reaches into the pantry to retrieve a cup.</p>
+    </div>
+    <div class="gallery-item">
+      <img class="imgtext" src="./images/two.png" alt="walking over to water dispenser" />
+      <p style="margin-top: 1rem">She walks over to the dispenser holding out her cup. She is in a rush so she briefly glances at the dispenser before deciding on her action.</p>
+    </div>
+    <div class="gallery-item">
+      <img class="imgtext" src="./images/three.png" alt="getting ice instead of water" />
+      <p style="margin-top: 1rem">Using her previous experience and knowledge of water dispensers, she pushes her cup into the dispenser but she receives ice instead of water.</p>
+    </div>
+    <div class="gallery-item">
+      <img class="imgtext" src="./images/four.png" alt="getting water on finger instead of in cup" />
+      <p style="margin-top: 1rem">She takes a second to look at the dispenser again and notices a button that has a water drop on it. She presses that button but she gets water on her hand instead of in her cup!</p>
+    </div>
+    <div class="gallery-item">
+      <img class="imgtext" src="./images/five.png" alt="getting water into cup" />
+      <p style="margin-top: 1rem">Frustrated, Ulma picks her cup up again and pushes it into the button with a water drop on it. The water finally dispenses into the cup.</p>
+    </div>
+    <div class="gallery-item">
+      <img class="imgtext" src="./images/six.png" alt="cleaning up spilled water" />
+      <p style="margin-top: 1rem">Ulma grabs a towel and wipes up the spilled water from the floor. She thinks about how, hopefully next time, she will know not to press it with her finger </p>
+    </div>
+  </div>
+</div>
+  <div class="normal_container" id="conclusion" style=" margin-bottom: 6rem">
+    <h2 style="margin-top: 4rem">Was this interface successful?</h2>
+    <text1>For returning users the interface was succesful because, more often than not, they recalled how to use the machine and knew how to get what they desired.
+      For new users the interface was usually unnsuccesful because the interaction would often end up with a mess or an experienced user lending a helping hand.</text1>
+  </div>
+</body>
+</html>
